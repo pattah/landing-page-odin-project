@@ -1,0 +1,204 @@
+* {
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+word-wrap: break-word;
+
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.site-header {
+    background-color: #1f2937;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 5.2em;
+}
+   
+.navcont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.topnav {
+    display: flex;
+    
+}
+
+.topnav li {
+    padding: 20px;
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navnav {
+    padding-right: 6.6em;
+}
+
+.section2 {
+    background-color: #1F2937;
+}
+
+.wrapper2 {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    gap: 2em;
+}
+
+.maintext {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.secondtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.zdjatko {
+    padding-top: 2.4em;
+    height: 400px;
+    width: 700px;
+    object-fit: cover;
+}
+
+.buttonn {
+    text-decoration: none;
+    background-color: #3882f6;
+    font-weight: 600;
+    color: white;
+    height: 35px;
+    width: 100px;
+    border: #3882f6;
+    border-style: solid 2px #3882f6;
+    border-radius: 1em;
+    
+}
+
+.h2h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+
+}
+
+.wrapper-random {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    height: 400px;
+    
+}
+
+.text11 {
+    width: 200px;
+}
+
+
+.img1 {
+    height: 200px;
+    width: 200px;
+}
+
+.quote {
+
+   background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    height: 500px;
+    padding-top: 2em;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+} 
+
+.thor {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 500;
+}
+
+.cta {
+    padding-top: 6.2em;
+    height: 400px;
+    
+}
+
+.blueb {
+    background-color: #3882f6;
+    margin: auto;
+    width: 1200px;
+    height: 200px;
+}
+.h4text {
+    color: rgb(240, 238, 238);
+    font-weight: 100;
+}
+
+.h4text, .h2text {
+    font-size: 18px;
+    padding-top: 2em;
+    padding-left: 8em;
+    height: 50px
+    
+}
+
+.h2text {
+    color: white;
+}
+
+
+.wwbutton {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10em;
+    
+}
+
+.wwbutton2 {
+    text-decoration: none;
+    height: 40px;
+    width: 110px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 0.5em;
+    background-color: #3882f6;
+    font-weight: 700;
+    font-size: 15px;
+    
+
+}
+
+.wrapfoot {
+   background-color: #1f2937;
+   color: white;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+
+.textfoot {
+    font-weight: 500;
+}
+
+
+
